@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+body {
+    background-color: #f9fafb;
+    font-family: 'Open Sans', sans-serif;
+}
+
+img{
+    width: 100%;
+}
+#navbar{
+    background-color: #000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 100%;
+}
+a:hover{
+    text-decoration: underline;
+    color: aqua;
+    
+}
+#navbar ul{
+    list-style-type: none;
+    margin: o;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+    z-index: 100;
+}
+#navbar li{
+    float: left;
+}
+
+#navbar li a{
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1em;
+    text-align: center;
+    color: white;
+
+}
+
+#navbar li a:hover{
+    background-color: coral;
+    color: black;
+}
+
+#content{
+    
+    max-width: 1180px;
+    position: relative;
+    top: 80px;
+    margin: 0 auto;
+}
+#content header{
+    height: 110px;
+    padding: -10px 20px ;
+    background-color: antiquewhite;
+    border-radius: 1em;
+
+}
+#principal{
+    width: 40%;
+    float: left;
+    padding: 5px;
+
+}
+#secundario{
+    width: 40%;
+    float: left;
+    padding: 5px;
+
+}
+#content aside{
+    width: 15%;
+    float: left;
+    padding: 5px;
+}
+
+#content footer{
+    clear:both;
+    width: 100%;
+    background-color:white;
+    height: 100px;
+    padding: 25px;
+    
+    
+
+}
